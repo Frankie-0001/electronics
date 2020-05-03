@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+li {
+  list-style: none;
+}
+.main,
+.content {
+  display: flex;
+}
+
+.whole {
+  background-color: white;
+  padding: 60px 40px;
+  border-radius: 8px;
+}
+
+body {
+  margin: 50px 50px;
+  background: rgb(92, 92, 248);
+}
+
+.primary {
+  margin-left: 30px;
+}
+
+.main-header {
+  background: purple;
+  color: white;
+  padding: 14px 15px;
+  letter-spacing: 1px;
+}
+
+.content {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.content div:not(#col-a) {
+  margin-left: 70px;
+}
+
+.work {
+  margin-right: 300px;
+}
+.primary p {
+  margin-left: 18px;
+  padding-bottom: 5px;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.title {
+  color: rgb(98, 98, 248);
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.extra {
+  margin-top: 17px;
+}
+
+.extra2 {
+  margin-top: 10px;
+}
+
+.nav-links {
+  width: 210px;
+  border-right: 1px solid gray;
+  height: 470px;
+  font-weight: 300;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.nav-links li {
+  padding-bottom: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
+
+.nav-links a:hover {
+  border-right: 2px solid rgb(247, 37, 65);
+  cursor: pointer;
+  padding-right: 100px;
+}
+
+.nav-links .pad a:hover {
+  padding-right: 100px;
+}
+
+span {
+  color: rgb(247, 37, 65);
+  font-weight: 400;
+}
